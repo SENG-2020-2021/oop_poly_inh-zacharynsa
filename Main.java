@@ -43,7 +43,7 @@ class Main {
      System.out.println("Input fourth side");
      float d = scan.nextFloat();
      Trapezoid t = new Trapezoid(a, b, c, d);
-    System.out.printf("The perimeter of the Trapezoid with First Side: %.2f, Second Side: %.2f, Third Side: %.2f, and Fourth Side: %.2f is %.2f", a, b, c, d, t.calculatePerimeter());
+    System.out.printf("The perimeter of the Trapezoid with First Side: %.2f, Second Side: %.2f, Third Side: %.2f, and Fourth Side: %.2f is %.2f", a, b, c, d, t.calculatePerimeter()); 
   }
 }
 
